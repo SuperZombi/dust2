@@ -1,0 +1,2 @@
+execute as @p[distance=..3, sort=nearest, limit=1] if entity @s[team=Red] if score @s canHighlight matches 1 run function myarmor:highlight_blue
+execute as @p[distance=..3, sort=nearest, limit=1] if entity @s[team=Blue] if score @s canHighlight matches 1 run function myarmor:highlight_red

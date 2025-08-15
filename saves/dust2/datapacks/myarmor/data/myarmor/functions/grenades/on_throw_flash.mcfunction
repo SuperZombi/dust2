@@ -1,0 +1,1 @@
+playsound cs:flashbang master @a ~ ~ ~

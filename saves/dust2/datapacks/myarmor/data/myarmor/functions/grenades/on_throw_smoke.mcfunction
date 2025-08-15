@@ -1,0 +1,1 @@
+playsound cs:smoke master @a ~ ~ ~

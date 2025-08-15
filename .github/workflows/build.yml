@@ -1,0 +1,29 @@
+name: Build Dust2
+
+on:
+  workflow_dispatch:
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Extract other.zip
+      run: |
+        unzip -o saves/dust2/other.zip -d saves/dust2/
+        rm saves/dust2/other.zip
+
+    - name: Upload dust2_resources
+      uses: actions/upload-artifact@v4
+      with:
+        name: dust2_resources
+        path: resourcepacks/dust2/*
+
+    - name: Upload dust2_map
+      uses: actions/upload-artifact@v4
+      with:
+        name: dust2
+        path: saves/*

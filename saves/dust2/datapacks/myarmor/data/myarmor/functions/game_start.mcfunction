@@ -1,5 +1,6 @@
 tellraw @a {"text":"Game start!","color":"green","bold":true}
 title @a title {"text":"Game start!","color":"green","bold":true}
+title @a subtitle {"text":""}
 playsound cs:match.start master @a ~ ~ ~ 1 1 1
 effect give @a minecraft:instant_health 1 20
 function myarmor:grenades/give_grenades_all

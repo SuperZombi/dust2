@@ -1,0 +1,3 @@
+function myarmor:guns/clear_guns
+give @p tacz:modern_kinetic_gun{AttachmentGRIP:{Count:1b,id:"tacz:attachment",tag:{AttachmentId:"tacz:grip_se_5"}},AttachmentMUZZLE:{Count:1b,id:"tacz:attachment",tag:{AttachmentId:"tacz:muzzle_silencer_phantom_s1"}},AttachmentSCOPE:{Count:1b,id:"tacz:attachment",tag:{AttachmentId:"tacz:scope_contender"}},AttachmentSTOCK:{Count:1b,id:"tacz:attachment",tag:{AttachmentId:"tacz:stock_tactical_ar"}},GunCurrentAmmoCount:9,GunFireMode:"SEMI",GunId:"tacz:sks_tactical",HasBulletInBarrel:1b}
+give @p tacz:ammo{AmmoId:"tacz:762x39"} 60

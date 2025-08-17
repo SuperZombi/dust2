@@ -1,0 +1,9 @@
+execute as @a[scores={smoke=1..}] anchored eyes at @s positioned ^ ^ ^ at @e[type=snowball,nbt={Item:{tag:{CustomModelData:1,land:"particles"}}},distance=..5,limit=1] summon area_effect_cloud store success entity @s Duration int 6000 store success score @s smoke run ride @s mount @e[type=snowball,nbt={Item:{tag:{CustomModelData:1}}},distance=..1,limit=1]
+execute as @a[scores={smoke=1..}] anchored eyes at @s positioned ^ ^ ^ at @e[type=snowball,nbt={Item:{tag:{CustomModelData:1,land:"particles"}}},distance=..5,limit=1] run function myarmor:grenades/on_throw_smoke
+scoreboard players reset @a smoke
+execute as @e[type=area_effect_cloud,scores={smoke=1}] at @s unless entity @e[type=snowball,nbt={Item:{tag:{CustomModelData:1}}},distance=..5,limit=1] store success entity @s Duration int 0 run function myarmor:grenades/throw_smoke
+
+execute as @a[scores={flash=1..}] anchored eyes at @s positioned ^ ^ ^ at @e[type=snowball,nbt={Item:{tag:{CustomModelData:2,land:"particles"}}},distance=..5,limit=1] summon area_effect_cloud store success entity @s Duration int 6000 store success score @s flash run ride @s mount @e[type=snowball,nbt={Item:{tag:{CustomModelData:2}}},distance=..1,limit=1]
+execute as @a[scores={flash=1..}] anchored eyes at @s positioned ^ ^ ^ at @e[type=snowball,nbt={Item:{tag:{CustomModelData:2,land:"particles"}}},distance=..5,limit=1] run function myarmor:grenades/on_throw_flash
+scoreboard players reset @a flash
+execute as @e[type=area_effect_cloud,scores={flash=1}] at @s unless entity @e[type=snowball,nbt={Item:{tag:{CustomModelData:2}}},distance=..5,limit=1] store success entity @s Duration int 0 run function myarmor:grenades/throw_flash

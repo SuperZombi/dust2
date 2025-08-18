@@ -6,7 +6,7 @@ effect give @a minecraft:instant_health 1 20
 function myarmor:grenades/give_grenades_all
 
 clear @a lrtactical:melee
-give @a lrtactical:melee{MeleeWeaponId:"lrtactical:karambit"}
+give @a lrtactical:melee{Enchantments:[{id:"minecraft:sharpness",lvl:5s},{id:"lrtactical:backstab",lvl:2s}],MeleeWeaponId:"lrtactical:karambit"}
 
 # red team
 fill -142 17 -97 -137 20 -97 minecraft:air

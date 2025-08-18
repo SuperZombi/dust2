@@ -1,0 +1,89 @@
+{
+  "match.start": {
+    "sounds": [
+      "cs:go", "cs:lets_go"
+    ]
+  },
+  "match.end": {
+    "sounds": [
+      {
+        "name": "cs:round_end",
+        "stream": true
+      }
+    ]
+  },
+  "match.music": {
+    "sounds": [
+      {
+        "name": "cs:round_start",
+        "stream": true
+      }
+    ]
+  },
+  "kill": {
+    "sounds": [
+      "cs:enemydown"
+    ]
+  },
+  "flashbang.effect": {
+    "sounds": [
+      {
+        "name": "cs:flashbang_effect",
+        "stream": true
+      }
+    ]
+  },
+  "flashbang": {
+    "sounds": [
+      "cs:flashbang", "cs:flashbang2"
+    ]
+  },
+  "smoke": {
+    "sounds": [
+      "cs:smoke", "cs:smoke2"
+    ]
+  },
+  "explode_grenade": {
+    "sounds": [
+      "cs:grenade1", "cs:grenade2", "cs:grenade3"
+    ]
+  },
+  "molotov": {
+    "sounds": [
+      "cs:molotov"
+    ]
+  },
+  "blue_win": {
+    "sounds": [
+      "cs:police_win"
+    ]
+  },
+  "red_win": {
+    "sounds": [
+      "cs:terrorists_win"
+    ]
+  },
+  "join_team": {
+    "sounds": [
+      "cs:affirm", "cs:in_position"
+    ]
+  },
+  "enemy_spotted": {
+    "sounds": [
+      "cs:enemy_spotted"
+    ]
+  },
+  "sixth_sense": {
+    "sounds": [
+      "cs:sixth_sense"
+    ]
+  },
+  "shooting_range": {
+    "sounds": [
+      {
+        "name": "cs:shooting_range",
+        "stream": true
+      }
+    ]
+  }
+}

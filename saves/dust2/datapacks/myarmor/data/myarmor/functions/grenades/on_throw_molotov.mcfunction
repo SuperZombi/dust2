@@ -1,0 +1,1 @@
+playsound cs:molotov master @a ~ ~ ~

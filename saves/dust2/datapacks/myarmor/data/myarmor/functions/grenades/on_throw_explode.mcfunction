@@ -1,0 +1,1 @@
+playsound cs:explode_grenade master @a ~ ~ ~

@@ -30,3 +30,4 @@ team modify Red nametagVisibility hideForOtherTeams
 team modify Blue nametagVisibility hideForOtherTeams
 
 data modify storage myarmor:vars gun_id set value ""
+data modify storage myarmor:vars melee_id set value ""
